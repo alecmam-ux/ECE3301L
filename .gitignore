@@ -1,0 +1,44 @@
+.generated_files/
+build/
+dist/
+debug/
+_build/
+out/
+Package-*
+private/
+
+# CRITICAL FIX: Only ignore private MPLAB files, track the rest of nbproject
+nbproject/private/
+nbproject/Makefile-local-*.mk
+
+# CMake Rules (STM32)
+!cmake/**/user.cmake
+cmake/**/.generated/*
+cmake/**/CMake*
+
+# Desktop C/C++ (Data Structures)
+*.exe
+*.out
+*.o
+*.obj
+*.elf
+
+# Python (Automation)
+.venv/
+__pycache__/
+*.pyc
+
+# VS Code & OS Settings (Prevents hardcoded Windows paths from going to Linux)
+.vscode/c_cpp_properties.json
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# =========================
+# FPGA (Vivado)
+# =========================
+*.jou
+*.log
+*.pb
+*.wdb
+.Xil/
