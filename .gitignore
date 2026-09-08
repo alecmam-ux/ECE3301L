@@ -1,15 +1,15 @@
-.generated_files/
-build/
-dist/
-debug/
-_build/
-out/
-Package-*
-private/
+**/.generated_files/
+**/build/
+**/dist/
+**/debug/
+**/_build/
+**/out/
+**/Package-*
+**/private/
 
-# CRITICAL FIX: Only ignore private MPLAB files, track the rest of nbproject
-nbproject/private/
-nbproject/Makefile-local-*.mk
+# CRITICAL FIX: Ignore local paths in all subfolders
+**/nbproject/private/
+**/nbproject/Makefile-local-*.mk
 
 # CMake Rules (STM32)
 !cmake/**/user.cmake
