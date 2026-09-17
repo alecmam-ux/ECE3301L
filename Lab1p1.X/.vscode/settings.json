@@ -11,5 +11,6 @@
         "gdb",
         "gdbtarget",
         "mplab-core-da"
-    ]
+    ],
+    "cmake.sourceDirectory": "C:/Users/Alec/Documents/GitHub/ECE/ECE3301L/Lab1p1.X/cmake/Lab1p1/default.production"
 }
